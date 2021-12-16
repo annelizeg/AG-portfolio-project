@@ -1,0 +1,13 @@
+/* font-family: 'Fredericka the Great', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rampart One', cursive; */
+
+h1 {
+  color: maroon;
+  font-family: "Fredericka the Great", cursive;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
