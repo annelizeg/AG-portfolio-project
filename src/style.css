@@ -64,7 +64,7 @@ hr {
 }
 
 .hero h2,
-.about-section-content h2 {
+.content h2 {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5;
@@ -73,19 +73,24 @@ hr {
   opacity: 80%;
 }
 
-.about-section-content h1 {
+/* COnsider if you want to adjust the spaceing at top of pages */
+/* .content-container {
+  padding: 160px 20px;
+} */
+
+.content h1 {
   font-size: 64px;
 }
 
-.about-section-heading {
+.page-heading {
   font-size: 96px;
 }
 
-.about-section {
+.content-container {
   background-color: var(--secondary-color);
 }
 
-.about-section-content {
+.content {
   padding: 20px 30px;
 }
 
@@ -94,7 +99,7 @@ hr {
   text-align: right;
 }
 
-.annelize-image {
+.image-style {
   margin: 30px 0;
   border-radius: 10px;
   box-shadow: 5px 5px 5px var(--primary-color);
@@ -155,7 +160,7 @@ hr {
     text-align: center;
   }
 
-  .about-section-content {
+  .content {
     text-align: center;
   }
 
@@ -163,11 +168,11 @@ hr {
     text-align: center;
   }
 
-  .about-section-content h1 {
+  .content h1 {
   font-size: 46px;
 }
 
-.about-section-heading {
+.page-heading {
   font-size: 50px;
 }
 
