@@ -26,9 +26,41 @@
     ></script>
   </head>
   <body>
-    <a href="/index.html">Homepage</a>
+    <nav
+      class="navbar fixed-top navbar-expand-md navbar-dark"
+      style="background-color: var(--primary-color)"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="/">AG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link active" aria-current="page" href="/contact.html"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-      <h1 class="mb-5 mt-4 text-center page-heading">Let's Get In Touch!</h1>
+      <h1 class="mb-5 pt-5 text-center page-heading">Let's Get In Touch!</h1>
       <div class="row content-container content">
         <p class="text-center">
           To get in contact with me, please send me an email or a message on my
