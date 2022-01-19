@@ -13,6 +13,7 @@ rgb(109, 104, 104)
 :root {
   --primary-color: #09194f;
   --secondary-color: rgb(208, 231, 227);
+  --accent-color: white;
   --heading-font-family: "Fredericka the Great", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -51,6 +52,45 @@ p {
 
 hr {
   border: 5px solid var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 40px 160px;
+}
+
+footer h4 {
+  color: var(--accent-color);
+  font-size: 38px;
+}
+
+footer p {
+  color: var(--accent-color);
+  margin: 0;
+  padding: 0 0 10px 10px;
+}
+
+footer .btn-accent-outline {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+footer .social-link {
+color: white;
+opacity: 80%;
+font-size: 28px;
+padding: 10px;
+text-decoration: none;
+transition: all 100ms ease-in-out;
+}
+
+footer .social-link:hover {
+color: white;
+opacity: 100%;
+font-size: 32px;
+padding: 10px;
 }
 
 .logo {
