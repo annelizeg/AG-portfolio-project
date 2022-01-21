@@ -38,6 +38,7 @@ h1 {
 
 h2 {
   font-size: 64px;
+  opacity: 95%;
 }
 
 h3 {
@@ -188,6 +189,11 @@ padding: 10px;
     font-size: 44px;
   }
 
+  footer {
+  padding: 40px 20px;
+  text-align: center;
+}
+
   .logo {
     font-size: 50px;
   }
@@ -224,6 +230,15 @@ padding: 10px;
   .page-heading {
     font-size: 50px;
   }
+
+  .email {
+    margin-top: 20px;
+  }
+
+  footer .btn-accent-outline {
+  padding: 10px 10px;
+}
+
 }
 
 @media (min-width: 993px) and (max-width: 1300px) {

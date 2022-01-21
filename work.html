@@ -26,7 +26,7 @@
     ></script>
   </head>
   <body>
-   <nav
+    <nav
       class="navbar fixed-top navbar-expand-md navbar-dark"
       style="background-color: var(--primary-color)"
     >
@@ -43,11 +43,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
             <a class="nav-link" href="/">Home</a>
             <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link active" aria-current="page" href="/work.html">Work</a>
+            <a class="nav-link active" aria-current="page" href="/work.html"
+              >Work</a
+            >
             <a class="nav-link" href="/contact.html">Contact</a>
           </div>
         </div>
@@ -55,8 +60,10 @@
     </nav>
 
     <div class="container">
-      <h1 class="mb-5 pt-5 text-center page-heading">Take a look at what I've been working on!</h1>
-      <div class="row content-container content">
+      <h1 class="mb-5 pt-5 text-center page-heading">
+        Take a look at what I've been working on!
+      </h1>
+      <div class="row content-container content mb-3">
         <h2 class="text-center">My recent front-end development projects.</h2>
         <div class="col-lg-6 text-center mb-4">
           <img
@@ -65,8 +72,15 @@
             alt="Weather App"
           />
           <h3 class="m-0">Weather App</h3>
-            <p>Built with HTML, CSS and JavaScript</p>
-            <a href="#" class="btn btn-branding">Launch Wether App</a>
+          <p>Built with HTML, CSS and JavaScript</p>
+          <!-- <div class="d-flex">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-github-square"></i>
+        </div> -->
+          <a href="#" class="btn btn-branding">Launch Wether App</a>
         </div>
         <div class="col-lg-6 text-center mb-4">
           <img
@@ -75,10 +89,33 @@
             alt="Art Journaling Landing Page"
           />
           <h3 class="m-0">Art Journaling Landing Page</h3>
-            <p>Built with HTML and CSS</p>
-            <a href="#" class="btn btn-branding">Launch Art Journaling Page</a>
+          <p>Built with HTML and CSS</p>
+          <a href="#" class="btn btn-branding">Launch Art Journaling Page</a>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <div class="d-lg-flex justify-content-evenly">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's work together</p>
+            <a href="https://www.linkedin.com/in/annelize-grobbelaar-1ba524151/" class="social-link" target="_blank"> <i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/annelizeg" class="social-link" target="_blank"> <i class="fab fa-github"></i></a>
+            <a href="mailto:agrobbel88@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <div class="d-lg-flex align-items-center">
+            <a
+              href="mailto:agrobbel88@gmail.com"
+              class="btn btn-accent-outline email"
+              >agrobbel88@gmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
