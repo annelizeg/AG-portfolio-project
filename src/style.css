@@ -55,6 +55,22 @@ hr {
   border: 5px solid var(--primary-color);
 }
 
+small {
+  color: var(--accent-color);
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+small a {
+  color: var(--accent-color);
+  transition: all 100ms ease-in-out;
+}
+
+small a:hover {
+  color: var(--secondary-color);
+}
+
 footer {
   background-color: var(--primary-color);
   padding: 40px 160px;
@@ -79,19 +95,19 @@ footer .btn-accent-outline {
 }
 
 footer .social-link {
-color: white;
-opacity: 80%;
-font-size: 28px;
-padding: 10px;
-text-decoration: none;
-transition: all 100ms ease-in-out;
+  color: white;
+  opacity: 80%;
+  font-size: 28px;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-link:hover {
-color: white;
-opacity: 100%;
-font-size: 32px;
-padding: 10px;
+  color: white;
+  opacity: 100%;
+  font-size: 32px;
+  padding: 10px;
 }
 
 .logo {
@@ -190,9 +206,9 @@ padding: 10px;
   }
 
   footer {
-  padding: 40px 20px;
-  text-align: center;
-}
+    padding: 40px 20px;
+    text-align: center;
+  }
 
   .logo {
     font-size: 50px;
@@ -236,9 +252,8 @@ padding: 10px;
   }
 
   footer .btn-accent-outline {
-  padding: 10px 10px;
-}
-
+    padding: 10px 10px;
+  }
 }
 
 @media (min-width: 993px) and (max-width: 1300px) {
