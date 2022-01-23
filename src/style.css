@@ -53,6 +53,7 @@ p {
 
 hr {
   border: 5px solid var(--primary-color);
+  margin: 0;
 }
 
 small {
@@ -154,7 +155,7 @@ footer .social-link:hover {
   background-color: var(--secondary-color);
 }
 
-.content {
+.content-padding {
   padding: 20px 30px;
 }
 
@@ -169,9 +170,14 @@ footer .social-link:hover {
   box-shadow: 5px 5px 5px var(--primary-color);
 }
 
-.about-me {
+.section {
   text-align: center;
-  padding: 0px 20px;
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--primary-color);
+  padding: 10px 30px 0;
 }
 
 .btn-branding {
@@ -265,6 +271,10 @@ footer .social-link:hover {
 
   .page-heading {
     font-size: 50px;
+  }
+
+  .skills-icons {
+    justify-content: center;
   }
 
   .email {
