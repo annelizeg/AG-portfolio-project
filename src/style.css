@@ -1,15 +1,3 @@
-/* font-family: "Fredericka the Great", cursive;
-font-family: "Playfair Display", serif;
-font-family: "Poppins", sans-serif;
-font-family: "Rampart One", cursive; */
-
-/* colors
-rgb(130, 50, 28) 
-rgb(153, 20, 35)
-rgb(49, 45, 41)
-rgb(109, 104, 104)
-*/
-
 :root {
   --primary-color: #09194f;
   --secondary-color: rgb(208, 231, 227);
